@@ -118,3 +118,14 @@ button.about-button:hover{
     box-shadow: inset 8px 8px 10px #f4a352;
     /* inset -5px -5px 8px #f6e0d2; */
 }
+@media only screen and (max-width:45em) {
+  .links li a {
+      padding: 0.1rem 0.8rem;
+  }
+  .links li a:first-child {
+      padding-left: 1rem;
+  }
+  nav .title img {
+      height: 3rem;
+  }
+}

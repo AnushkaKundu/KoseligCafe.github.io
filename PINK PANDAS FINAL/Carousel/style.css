@@ -102,7 +102,9 @@ img{
 .dot{
 	z-index: 10;
 }
-
+.title img {
+    height: 4.5rem;
+}
 @media only screen and (max-width:45em) {
     .top-text{
         display: none;
@@ -116,6 +118,9 @@ img{
         right: 0;
         margin: 0 auto;
         padding: 3em 4em 3em 4em;
+    }
+    .title img {
+        height: 3rem;
     }
 }
 /* .top-text{
@@ -413,4 +418,15 @@ button.about-button:hover{
 .page-turners{
     height: 18rem;
     width:25rem;
+}
+@media only screen and (max-width:45em) {
+    .links li a {
+        padding: 0.1rem 0.8rem;
+    }
+    .links li a:first-child {
+        padding-left: 1rem;
+    }
+    nav .title img {
+        height: 2em;
+    }
 }
